@@ -1,0 +1,434 @@
+*{margin: 0;
+box-sizing: border-box;
+}
+
+header {
+    height: 15vh;
+    background-color: lightslategray;
+}
+
+#menu {
+    text-align: right;
+}
+#ph{
+    height: 4vh;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: 350px;
+    padding: 10px;
+    font-size: 17px;
+    color: #0d0cb5;
+}
+
+#em{
+    height: 4vh;
+    width: 20%;
+   position: relative;
+   bottom: 27px;
+   left: 550px;
+   font-size: 17px; 
+   color: #0d0cb5;
+
+}
+
+#ch {
+    font-size: 32px;
+    color: black;
+    position: relative;
+    bottom: 40px;
+    left: 360px;
+
+}
+ul#menu li{       
+    display: inline-block;
+    list-style-type: none;
+    text-align: right;
+}
+
+li:hover{
+    color: #0d0cb5;
+}
+
+#hire {
+    width: 115px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 30px;
+    z-index: 2;
+    position: relative;
+    left: 870px;
+    bottom: 850px;
+    color:white;
+    background-color: #0d0cb5;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+  }
+
+  #body{
+      background-image: url("https://preview.colorlib.com/theme/chimper/images/hero_1.jpg.webp");
+      background-position: top;
+      background-size: 140%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: rgba(0, 0, 0, 0);
+      background-blend-mode: multiply;
+  }
+
+#txt1 {
+    width: 50%;
+    z-index: 2;
+    color: white;
+    font:Ysabeau Office;
+    font-size: 40px;
+    position: relative;
+    bottom: 950px;
+    left: 700px;
+}
+
+#txt2 {
+    font-size: 20px;
+    opacity: 1;
+    color: white;
+    width: 500px;
+    font: Ysabeau Office;
+    position: relative;
+    left: 850px;
+    bottom: 990px;
+}
+
+
+
+#home {
+    width: 100px;
+    margin: 1em;
+}
+
+#work {
+    width: 100px;
+    margin: 1em;
+}
+
+#services {
+    width: 100px;
+    margin: 1em;
+}
+
+#about {
+    width: 100px;
+    margin: 1em;
+}
+
+#blog {
+    width: 100px;
+    margin: 1em;
+}
+
+#contact {
+    width: 100px;
+    margin: 1em;
+}
+
+#face{
+    position: relative;
+    left: 1500px;
+    bottom: 1371px;
+    
+}
+#tt{
+    position: relative;
+    left: 1540px;
+    bottom: 1390px;
+}
+
+#insta{
+    position: relative;
+    left: 1580px;
+    bottom:1408px;
+    
+}
+#lin{
+    position: relative;
+    left: 1620px;
+    bottom:1428px;
+    z-index: 8;
+    
+}
+
+.preto{
+    height: 60vh;
+    background-color: black;
+    width: 55%;
+    position: absolute;
+    top: 100%;
+    left: -1%;
+    transform: translate(50%,50%);
+
+}
+#img2{
+     height: 433px;
+     width: 509px;
+     position:relative;
+     left: 550px;
+     bottom: 250px;
+     }
+
+     #txt3{
+         color: white;
+         font: inherit; 
+         font-size: 20px;
+         padding: 30px;
+         font-weight: 500;
+         padding-left: 70px;
+         }
+  #ww{
+    font-size: 20px ;
+    color: white;
+  }
+     #txt4{
+        color: white;
+        font: inherit;
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 550px;
+        opacity: 1;
+     }
+     #art{
+        font-size: 20px ;
+    color: white;
+     }
+
+     #txt5{
+        color: white;
+        font: inherit;
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 770px;
+        opacity: 1;
+        position: relative;
+        bottom: 69px;
+     }
+
+     #br{
+        font-size: 20px ;
+        color: white;
+     }
+     #txt6{
+        color: white;
+        font: inherit;
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 550px;
+        opacity: 1;
+       
+     }
+     
+     #copy{
+        font-size: 20px ;
+        color: white;
+     }
+     
+     #txt7{
+        color: white;
+        font: inherit;
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 770px;
+        opacity: 1;
+        position: relative;
+        bottom: 70px;
+     }
+
+     .section{
+    
+    padding:15px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    font-size: 21px;
+    font: Quicksand;  
+    z-index: 2;
+ }
+
+ #ouvalues {
+    text-align: right;
+    font-size: 30px;
+    color: black;
+    
+ }
+
+ #oumission{
+    text-align: right;
+    font-size: 30px;
+    color: black;
+   
+    
+ }
+
+ #oph{
+    text-align: right;
+    font-size: 30px;
+    color: black;
+    
+ }
+ .section section{
+    padding: 20px;
+    text-align: center;
+ }
+
+
+
+.num {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    font-size: 150px;
+    position: relative;
+    bottom: -130px;
+    left: 140px;
+    opacity: 10%;
+    color: black;
+}
+
+#fe{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Helvetica Neue"
+    , Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#txt8{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    position:relative;
+    bottom:-250px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Helvetica Neue"
+    , Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji";
+     opacity: 50%;
+}
+
+.imagens{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 100px;
+    position: relative;
+    top: 300px;
+    left: 170px;
+}
+
+#btn2{
+    width: 145px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 30px;
+    color:white;
+    background-color: #0d0cb5;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 500px;
+    left: 850px;
+}
+
+#ter{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: -650px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Helvetica Neue"
+    , Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#txt9{
+    font-size: 21px;
+    color: black;
+    text-align: center;
+    position:relative;
+    bottom:-750px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Helvetica Neue"
+    , Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji";
+     opacity: 50%;
+}
+
+#bl{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: -900px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Helvetica Neue"
+    , Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.txt10{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    position: relative;
+    bottom: -1000px;
+    left: 130px;
+
+}
+#c1{
+    font-size: 27px;
+}
+.c1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    font-size: 20px;
+    color: #0d0cb5;
+    position:relative;
+    bottom:-1000px;
+    left: 130px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Helvetica Neue"
+    , Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+#a1{
+    position: relative;
+    bottom: -20px;
+    color: black;
+    opacity: 50%;
+}
+
+#a2{
+    left: 600px;
+    position: relative;
+        bottom: 90px;
+        color: black;
+        opacity: 50%;
+    }
+
+    #a3{
+             left: 1230px;
+            position: relative;
+            bottom: 200px;
+            color: black;
+            opacity: 50%;
+        }
+
+
+    
+
+
+
